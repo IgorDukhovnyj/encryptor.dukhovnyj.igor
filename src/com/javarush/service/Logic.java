@@ -1,4 +1,4 @@
-package service;
+package com.javarush.service;
 
 import com.javarush.files.LangSize;
 
@@ -21,7 +21,7 @@ public class Logic extends LangSize {
             text = Files.readAllLines(path);
             for (String line : text) {
                 s = recognizesWhitchLangEncryptDecrypt(line, textCiperMenu, key);
-                saveTextToFile(newfile, s);
+                saveTextToFile(path.getFileName().toString(), s);
             }
         } catch (IOException e) {
             System.out.println("Validation failed: " + e.getMessage());

@@ -1,4 +1,4 @@
-package service;
+package com.javarush.service;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -13,6 +13,6 @@ public class Alphabet {
             'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z')
     );
     public static final ArrayList<Character> TEST_DICTIONARY = new ArrayList<>(
-            Arrays.asList("London")
+            Arrays.asList('L', 'o', 'n', 'd', 'o', 'n')
     );
 }

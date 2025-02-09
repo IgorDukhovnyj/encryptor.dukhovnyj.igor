@@ -1,6 +1,7 @@
 package com.javarush.files;
 
-import service.Alphabet;
+import com.javarush.service.Alphabet;
+import com.javarush.service.BruteForce;
 
 import java.util.ArrayList;
 
@@ -8,7 +9,6 @@ public class LangSize {
     ArrayList<Character> transformedText = new ArrayList<>();
 
     public String recognizesWhitchLangEncryptDecrypt(String text, String textCiperMenu, int key) {
-        CaesarCipher caesarCipher = new CaesarCipher();
         BruteForce bruteForce = new BruteForce();
         int count = 0;
 

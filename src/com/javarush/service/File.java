@@ -1,10 +1,12 @@
-package service;
+package com.javarush.service;
 
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
 
 public class File {
+
+
     public boolean isFileExist(Path path) {
         try {
             if (!Files.exists(path)) {

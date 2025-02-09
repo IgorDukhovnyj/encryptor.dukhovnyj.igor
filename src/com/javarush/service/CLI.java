@@ -1,4 +1,4 @@
-package service;
+package com.javarush.service;
 
 import java.nio.file.Path;
 import java.util.Scanner;
